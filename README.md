@@ -3,5 +3,6 @@ Some crypto enthusiasts have gotten the notion that they'll decruft the Satoshi 
 
 
 
-therealbitcoin is host here : http://btc.yt/lxr/satoshi/source/ 
+therealbitcoin source code is hosted here : http://btc.yt/lxr/satoshi/source/ 
+
 and i create this repo for clone all source code easily by using git source control
