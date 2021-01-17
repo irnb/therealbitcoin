@@ -1,0 +1,13 @@
+include ../verify.mk
+
+all: bitcoind
+
+clean:
+        rm -rf bitcoind
+
+check:
+        $(SHA512) -c Manifest.sha512
+
+bitcoind:
+        cp ../build/bitcoind .
+        #$(CHECKSUM_OR_DIE)
